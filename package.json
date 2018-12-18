@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-mongo-employees",
+  "version": "1.0.0",
+  "description": "NodeJS Employees App Sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'Test/**/*.js' --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerardabsi/nodejs-mongo-employees.git"
+  },
+  "author": "Gerard Absi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerardabsi/nodejs-mongo-employees/issues"
+  },
+  "homepage": "https://github.com/gerardabsi/nodejs-mongo-employees#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2",
+    "mongoose": "^5.4.0"
+  }
+}
